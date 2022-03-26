@@ -14,4 +14,104 @@ ul {
     margin-right: auto;
 }
 /* header  */
-.logo-link
+.header {
+    width: 1280px;
+    margin-top: 44px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-link:hover {
+    opacity: 0.7;
+}
+.site-logo {
+    display: block;
+}
+.navbar {
+    padding-top: 10px;
+    /* padding-bottom: 4px; */
+}
+.nav-lists {
+    
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+.nav-list {
+    margin-left: 33px;
+    
+}
+
+.nav-nav-link {
+    display: block;
+    color: #83888F;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    transition: 2s ease;
+}
+.nav-nav-link:hover {
+    background-color: black;
+    color: #fff;
+}
+/* intro  */
+
+.intro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    height: 600px;
+    background-color: #83888F;
+    border-radius: 5px;
+}
+.intro-wrapper {
+    padding-top: 100px;    
+    width: 50%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.intro-header {
+    margin-left: 165px;
+    width: 493px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+
+}
+.intro-text {
+    margin-bottom: 56px;
+    margin-left: 165px;
+    width: 445px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.intro-link {
+    margin-left: 165px  ;
+    padding: 15px 31px 16px 31px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    background: #0E8784;
+    border-radius: 6px;
+    color: #FEFCF7;
+    transition: 2s ease;
+
+}
+.intro-link:hover{
+    background: #fff;
+    color: #0E8784;
+}
